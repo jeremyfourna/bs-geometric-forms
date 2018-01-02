@@ -1,13 +1,20 @@
 {
   "name": "bs-geometric-forms",
   "version": "0.0.1",
-  "description": "",
+  "description": "Allow you create basic forms inside D3 context",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeremyfourna/bs-geometric-forms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeremyfourna/bs-geometric-forms/issues"
+  },
   "author": "Jeremy Fourna <jeremyfourna@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "ramda": "^0.24.1",
     "d3-shape": "^1.2.0"
