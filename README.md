@@ -1,5 +1,7 @@
 # bs-geometric-forms
 
+[![NPM](https://nodei.co/npm/bs-geometric-forms.png)](https://www.npmjs.com/package/bs-geometric-forms)
+
 ## Installation
 
 `npm i bs-geometric-forms`
