@@ -36,3 +36,5 @@ This package allow you to create the following forms:
 * Circle via `circle` function
 * Line via `line` function
 * Arc via `arc` function
+
+All functions are curried.
