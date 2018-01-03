@@ -9,7 +9,7 @@
 ## Usage
 
 ```js
-const { createRectangle } = require('bs-geometric-forms');
+const { rectangle } = require('bs-geometric-forms');
 
 const svg = d3.select('#app').append('svg');
 
@@ -21,7 +21,7 @@ const height = 200;
 svg.attr('height', 400);
 svg.attr('width', 400);
 
-createRectangle(xPosition, yPosition, width, height, svg);
+rectangle(xPosition, yPosition, width, height, svg);
 ```
 
 ### Example
@@ -32,7 +32,7 @@ createRectangle(xPosition, yPosition, width, height, svg);
 
 This package allow you to create the following forms:
 
-* Rectangle via `createRectangle` function
-* Circle via `createCircle` function
-* Line via `createLine` function
-* Arc via `createArc` function
+* Rectangle via `rectangle` function
+* Circle via `circle` function
+* Line via `line` function
+* Arc via `arc` function

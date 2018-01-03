@@ -53,7 +53,7 @@ function createArc(innerRad, outerRad, startAng, endAng, x, y, invert, context) 
   }
 }
 
-exports.createRectangle = createRectangle;
-exports.createCircle = createCircle;
-exports.createLine = createLine;
-exports.createArc = createArc;
+exports.rectangle = R.curry(createRectangle);
+exports.circle = R.curry(createCircle);
+exports.line = R.curry(createLine);
+exports.arc = R.curry(createArc);
